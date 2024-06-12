@@ -7,32 +7,28 @@
   position: absolute;
   width: 461px;
   height: 75px;
-  left: 736px;
-  top: 248px;
-
+  left: 543px;
+  top: 89px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
   line-height: 75px;
   text-align: center;
-
   color: #000000;
 }
 .zolnierze {
   position: absolute;
   width: 149px;
   height: 42px;
-  left: 312px;
-  top: 423px;
-
+  left: 201px;
+  top: 245px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-
   color: #000000;
 }
 
@@ -40,16 +36,15 @@
   position: absolute;
   width: 88px;
   height: 38px;
-  left: 214px;
-  top: 689px;
+  left: 103px;
+  top: 511px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
   text-align: center;
-
   color: #000000;
 }
 
@@ -57,16 +52,14 @@
   position: absolute;
   width: 255px;
   height: 38px;
-  left: 367px;
-  top: 689px;
-
+  left: 256px;
+  top: 511px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
   text-align: center;
-
   color: #000000;
 }
 
@@ -74,16 +67,14 @@
   position: absolute;
   width: 162px;
   height: 42px;
-  left: 878px;
-  top: 423px;
-
+  left: 704px;
+  top: 249px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-
   color: #000000;
 }
 
@@ -91,209 +82,128 @@
   position: absolute;
   width: 88px;
   height: 38px;
-  left: 786px;
-  top: 678px;
-
+  left: 612px;
+  top: 504px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
   text-align: center;
-
   color: #000000;
 }
 .services_obj_2_2 {
   position: absolute;
   width: 238px;
   height: 38px;
-  left: 948px;
-  top: 678px;
-
+  left: 774px;
+  top: 504px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
   text-align: center;
-
   color: #000000;
 }
 
 .akademiki {
-  /* Akademiki */
-
   position: absolute;
   width: 176px;
   height: 44px;
-  left: 1474px;
-  top: 412px;
-
+  left: 1199px;
+  top: 241px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
-  /* identical to box height */
-
   color: #000000;
 }
-.services_obj_3_1 {
-  /* MAPA */
 
+.services_obj_3_1 {
   position: absolute;
   width: 88px;
   height: 38px;
-  left: 1386px;
-  top: 678px;
-
+  left: 1111px;
+  top: 507px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
-  /* identical to box height */
   text-align: center;
-
   color: #000000;
 }
-.services_obj_3_2 {
-  /* BAZA AKADEMIKÓW */
 
+.services_obj_3_2 {
   position: absolute;
   width: 297px;
   height: 38px;
-  left: 1531px;
-  top: 678px;
-
+  left: 1256px;
+  top: 507px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
-  /* identical to box height */
   text-align: center;
-
   color: #000000;
 }
 
 .mapa_11 {
-  /* mapa_moje-removebg-preview 1 */
-
   position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 183px;
-  top: 485px;
+  width: 200px;
+  height: 200px;
+  left: 47px;
+  top: 289px;
 }
+
 .baza_danych_1 {
-  /* png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview 1 */
-
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 420px;
-  top: 496px;
-}
-.box_baza_danych_1 {
-  background-color: #d9d9d9;
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 395px;
-  top: 467px;
-}
-
-.box_mapa_11 {
-  /* mapa */
-
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 158px;
-  top: 467px;
-
-  background-color: #d9d9d9;
+  left: 284px;
+  top: 289px;
 }
 
 .baza_danych_2 {
-  /* png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview 2 */
-
   position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 992px;
-  top: 503px;
+  width: 200px;
+  height: 200px;
+  left: 793px;
+  top: 293px;
 }
 .mapa_22 {
-  /* mapa_moje-removebg-preview 2 */
-
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 755px;
-  top: 492px;
-}
-.box_mapa_22 {
-  /* mapa */
-
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 730px;
-  top: 467px;
-  background-color: #d9d9d9;
+  left: 556px;
+  top: 293px;
 }
-.box_baza_danych_2 {
-  /* baza */
 
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 967px;
-  top: 467px;
-  background-color: #d9d9d9;
-}
 .baza_danych_3 {
-  /* png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview 1 */
-
   position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 1587px;
-  top: 496px;
+  width: 200px;
+  height: 200px;
+  left: 1287px;
+  top: 296px;
 }
+
 .mapa_33 {
-  /* mapa_moje-removebg-preview 2 */
-
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 1356px;
-  top: 492px;
-}
-.box_baza_danych_3 {
-  /* baza */
-
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 1562px;
-  top: 467px;
-
-  background-color: #d9d9d9;
+  left: 1056px;
+  top: 296px;
 }
-.box_mapa_33 {
-  /* mapa */
 
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 1331px;
-  top: 467px;
-  background-color: #d9d9d9;
-}
 .services_obj_1_1:hover {
-  color: aqua;
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.services_obj_1_2:hover {
+  color: darkolivegreen;
   font-weight: bold;
 }

@@ -10,38 +10,33 @@ function Services() {
       <div className="services_title">Dostepne usługi</div>
       <div className="services_bottom">
         <div className="serives_option_1">
-          <div className="zolnierze">Żołnierze</div>
+          <div className="zolnierze">ŻOŁNIERZE</div>
           <Link to="map_1">
-            <div className="services_obj_1_1">Mapa</div>
+            <div className="services_obj_1_1">MAPA</div>
           </Link>
-          <div className="services_obj_1_2">Baza Danych</div>
+          <div className="services_obj_1_2">BAZA ŻOŁNIERZY</div>
         </div>
 
         <div className="services_bottom_2">
-          <div className="kompanie">Kompanie</div>
+          <div className="kompanie">KOMPANIE</div>
           <div className="services_option_2">
-            <div className="services_obj_2_1">Mapa</div>
-            <div className="services_obj_2_2">Baza Danych</div>
+            <div className="services_obj_2_1">MAPA</div>
+            <div className="services_obj_2_2">BAZA KOMPANII</div>
           </div>
 
           <div className="services_botton_3">
-            <div className="akademiki">Akademiki</div>
+            <div className="akademiki">AKADEMIKI</div>
             <div className="services_option_3">
-              <div className="services_obj_3_1">Mapa</div>
-              <div className="services_obj_3_2">Baza Danych</div>
+              <div className="services_obj_3_1">MAPA</div>
+              <div className="services_obj_3_2">BAZA AKADEMIKÓW</div>
             </div>
-            <div className="box_baza_danych_1"></div>
-            <div className="box_mapa_11"></div>
+
             <img className="baza_danych_1" src={baza_danych} alt="logo" />
             <img className="mapa_11" src={mapa} alt="logo" />
 
-            <div className="box_baza_danych_2"></div>
-            <div className="box_mapa_22"></div>
             <img className="baza_danych_2" src={baza_danych} alt="logo" />
             <img className="mapa_22" src={mapa} alt="logo" />
 
-            <div className="box_baza_danych_3"></div>
-            <div className="box_mapa_33"></div>
             <img className="baza_danych_3" src={baza_danych} alt="logo" />
             <img className="mapa_33" src={mapa} alt="logo" />
           </div>
