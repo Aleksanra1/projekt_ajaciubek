@@ -1,0 +1,115 @@
+.home {
+  background-color: white;
+  color: azure;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.home_left {
+  background-color: white;
+  display: flex;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.home_right {
+  background-color: white;
+  width: 40vw;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.home_photo {
+  width: 550px;
+  position: absolute;
+  left: 30%;
+  transform: translateX(-60%);
+}
+
+.home_right_title {
+  /*GEOPORTAL*/
+
+  font-style: bold;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 112px;
+  text-align: center;
+  position: relative;
+  top: -60px;
+
+  color: black;
+}
+
+.home_right_subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  line-height: 1.1;
+  position: relative;
+  top: -40px;
+
+  color: black;
+}
+
+.home_right_button {
+  width: 180px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  border-color: transparent;
+  border-radius: 0px;
+  justify-content: center;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 256px; /* half width*/
+  margin-top: 90px; /* half height*/
+}
+
+.home_right_button:hover {
+  background-color: #ffffff;
+  color: black;
+  border-color: black;
+  justify-content: center;
+}
+
+.home_top_about {
+  color: gray;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.home_top {
+  min-height: 15vh;
+  background-color: red;
+}
+
+.home_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+  * {
+  }
+  .home_bottom {
+    flex-direction: column;
+  }
+  .home_photo {
+    width: 10vw;
+    margin: 0 10vw;
+  }
+}
