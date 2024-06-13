@@ -14,20 +14,26 @@ function Services() {
           <Link to="map_1">
             <div className="services_obj_1_1">MAPA</div>
           </Link>
-          <div className="services_obj_1_2">BAZA ŻOŁNIERZY</div>
+          <Link to="dashboard_1">
+            <div className="services_obj_1_2">BAZA ŻOŁNIERZY</div>
+          </Link>
         </div>
 
         <div className="services_bottom_2">
           <div className="kompanie">KOMPANIE</div>
           <div className="services_option_2">
-            <div className="services_obj_2_1">MAPA</div>
+            <Link to="map_2">
+              <div className="services_obj_2_1">MAPA</div>
+            </Link>
             <div className="services_obj_2_2">BAZA KOMPANII</div>
           </div>
 
           <div className="services_botton_3">
             <div className="akademiki">AKADEMIKI</div>
             <div className="services_option_3">
-              <div className="services_obj_3_1">MAPA</div>
+              <Link to="map_3">
+                <div className="services_obj_3_1">MAPA</div>
+              </Link>
               <div className="services_obj_3_2">BAZA AKADEMIKÓW</div>
             </div>
 

@@ -21,7 +21,7 @@
   position: absolute;
   width: 149px;
   height: 42px;
-  left: 201px;
+  left: 151px;
   top: 245px;
   font-family: "Roboto";
   font-style: normal;
@@ -36,9 +36,8 @@
   position: absolute;
   width: 88px;
   height: 38px;
-  left: 103px;
+  left: 83px;
   top: 511px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -52,7 +51,7 @@
   position: absolute;
   width: 255px;
   height: 38px;
-  left: 256px;
+  left: 236px;
   top: 511px;
   font-family: "Roboto";
   font-style: normal;
@@ -67,7 +66,7 @@
   position: absolute;
   width: 162px;
   height: 42px;
-  left: 704px;
+  left: 654px;
   top: 249px;
   font-family: "Roboto";
   font-style: normal;
@@ -82,7 +81,7 @@
   position: absolute;
   width: 88px;
   height: 38px;
-  left: 612px;
+  left: 582px;
   top: 504px;
   font-family: "Roboto";
   font-style: normal;
@@ -96,7 +95,7 @@
   position: absolute;
   width: 238px;
   height: 38px;
-  left: 774px;
+  left: 754px;
   top: 504px;
   font-family: "Roboto";
   font-style: normal;
@@ -111,7 +110,7 @@
   position: absolute;
   width: 176px;
   height: 44px;
-  left: 1199px;
+  left: 1149px;
   top: 241px;
   font-family: "Inter";
   font-style: normal;
@@ -125,7 +124,7 @@
   position: absolute;
   width: 88px;
   height: 38px;
-  left: 1111px;
+  left: 1081px;
   top: 507px;
   font-family: "Roboto";
   font-style: normal;
@@ -140,7 +139,7 @@
   position: absolute;
   width: 297px;
   height: 38px;
-  left: 1256px;
+  left: 1226px;
   top: 507px;
   font-family: "Roboto";
   font-style: normal;
@@ -155,7 +154,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 47px;
+  left: 30px;
   top: 289px;
 }
 
@@ -163,7 +162,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 284px;
+  left: 254px;
   top: 289px;
 }
 
@@ -171,14 +170,14 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 793px;
+  left: 763px;
   top: 293px;
 }
 .mapa_22 {
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 556px;
+  left: 526px;
   top: 293px;
 }
 
@@ -186,7 +185,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 1287px;
+  left: 1257px;
   top: 296px;
 }
 
@@ -194,7 +193,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 1056px;
+  left: 1026px;
   top: 296px;
 }
 
@@ -204,6 +203,26 @@
 }
 
 .services_obj_1_2:hover {
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.services_obj_2_1:hover {
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.services_obj_2_2:hover {
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.services_obj_3_1:hover {
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.services_obj_3_2:hover {
   color: darkolivegreen;
   font-weight: bold;
 }
