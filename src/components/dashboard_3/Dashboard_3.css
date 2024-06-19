@@ -1,0 +1,27 @@
+.dashboard {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Odstęp między kolumnami */
+  margin: 20px;
+  text-align: center;
+  max-width: 1400px;
+  max-height: 9px;
+  height: calc(100vh-40px);
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 120px;
+  margin-top: 60px;
+}
+
+.card {
+  background-color: #f0f0f0; /* Kolor tła kart */
+  justify-content: center;
+  padding: 20px; /* Wewnętrzny odstęp */
+  border-radius: 10px; /* Zaokrąglenie rogów */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień */
+  max-width: 30px;
+  max-height: 30px;
+  align-items: center;
+  box-sizing: border-box;
+}
