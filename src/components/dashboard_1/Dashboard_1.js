@@ -52,7 +52,7 @@ function Dashboard_1() {
     <div className="dashboard">
       <div className="dashboard_1A">
         <Link to="dashboard_1a">
-          <button className="list">LISTA</button>
+          <button className="list">BAZA DANYCH - LISTA</button>
         </Link>
       </div>
       {input_list.map((item) => {

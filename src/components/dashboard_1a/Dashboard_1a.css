@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  margin-left: 350px;
 }
 
 .header h1 {
@@ -17,19 +18,9 @@
   font-size: 3em;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 96px;
   line-height: 116px;
-}
-
-.search-bar {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.search-bar input {
-  padding: 10px;
-  width: 300px;
 }
 
 table {
@@ -47,12 +38,13 @@ td {
 th,
 td {
   padding: 12px;
-  text-align: left;
+  text-align: center;
   font-size: 1.5em;
+  text-align: center;
 }
 
 th {
-  background-color: #45a049;
+  background-color: gray;
   color: white;
   font-size: 1.75em;
 }
@@ -60,22 +52,23 @@ th {
 .buttons {
   display: flex;
   gap: 10px;
-  margin-left: 20px; /* Dodano margines, aby przesunąć przyciski w prawo */
+  margin-left: 20px;
 }
 
 .button {
   background-color: gray;
   color: white;
-  font-size: 1.75em; /* Zwiększono rozmiar czcionki */
+  font-size: 0.8em; /* Zwiększono rozmiar czcionki */
   padding: 20px 30px; /* Dodano padding */
   border: none;
   cursor: pointer;
   border-radius: 5px; /* Dodano zaokrąglone rogi */
   transition: transform 0.2s; /* Dodano płynne przejście dla transformacji */
+  margin-top: 100px;
 }
 
 .button:hover {
-  background-color: #f1f1f1;
+  background-color: black;
   transform: scale(1.05);
 }
 

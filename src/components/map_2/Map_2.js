@@ -10,9 +10,11 @@ import {
 import "leaflet/dist/leaflet.css";
 import axios from "axios";
 import MarkerPlacement from "./MarkerPlacement_2";
+import L from "leaflet";
 
 function Map_2() {
   const [wojewodztwa, setwojewodztwa] = useState(null);
+  const [companies, setcompanies] = useState(null);
 
   const makePopup = (feature, layer) => {
     if (feature.properties) {
@@ -23,6 +25,16 @@ function Map_2() {
       <strong>Powierzchnia:</strong> ${feature.properties.jpt_powier} m2</br>
       <img src=${feature.properties.img_source} alt="Lamp" width="32" height="32"/>`);
     }
+  };
+  const pointToLayerCompanies = (feature, latlng) => {
+    return L.circleMarker(latlng, {
+      radius: 8,
+      fillColor: "#ff7800",
+      color: "#000",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.8,
+    });
   };
 
   useEffect(() => {
@@ -35,6 +47,16 @@ function Map_2() {
         .then((dane) => {
           // console.log(dane);
           setwojewodztwa(dane.data);
+        });
+      axios
+        .get(
+          "http://localhost:8080/geoserver/prge/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=prge%3Aprojekt_mapa1_git&maxFeatures=50&outputFormat=application%2Fjson"
+        )
+        .then((dane) => {
+          setcompanies(dane.data);
+        })
+        .catch((error) => {
+          console.log(`${error}`);
         });
     };
     getData();
@@ -62,6 +84,13 @@ function Map_2() {
           <LayersControl.Overlay name="Granice województw DB WFS">
             {wojewodztwa ? (
               <GeoJSON data={wojewodztwa} onEachFeature={makePopup} />
+            ) : (
+              ""
+            )}
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="companies">
+            {companies ? (
+              <GeoJSON data={companies} pointToLayer={pointToLayerCompanies} />
             ) : (
               ""
             )}

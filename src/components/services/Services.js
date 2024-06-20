@@ -7,15 +7,15 @@ import mapa from "./mapa.jpg";
 function Services() {
   return (
     <div className="services">
-      <div className="services_title">Dostepne usługi</div>
+      <div className="services_title">Dostępne usługi</div>
       <div className="services_bottom">
         <div className="serives_option_1">
           <div className="zolnierze">ŻOŁNIERZE</div>
           <Link to="map_1">
-            <div className="services_obj_1_1">MAPA</div>
+            <div className="services_obj_1_1">Mapa </div>
           </Link>
           <Link to="dashboard_1">
-            <div className="services_obj_1_2">BAZA ŻOŁNIERZY</div>
+            <div className="services_obj_1_2">Baza żołnierzy</div>
           </Link>
         </div>
 
@@ -23,20 +23,20 @@ function Services() {
           <div className="kompanie">KOMPANIE</div>
           <div className="services_option_2">
             <Link to="map_2">
-              <div className="services_obj_2_1">MAPA</div>
+              <div className="services_obj_2_1">Mapa</div>
             </Link>
             <Link to="dashboard_3">
-              <div className="services_obj_2_2">BAZA KOMPANII</div>
+              <div className="services_obj_2_2">Baza kompanii</div>
             </Link>
           </div>
           <div className="services_botton_3">
             <div className="akademiki">AKADEMIKI</div>
             <div className="services_option_3">
               <Link to="map_3">
-                <div className="services_obj_3_1">MAPA</div>
+                <div className="services_obj_3_1">Mapa</div>
               </Link>
               <Link to="dashboard_2">
-                <div className="services_obj_3_2">BAZA AKADEMIKÓW</div>
+                <div className="services_obj_3_2">Baza akademików</div>
               </Link>
             </div>
 

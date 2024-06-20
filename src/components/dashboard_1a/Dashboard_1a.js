@@ -4,38 +4,40 @@ import "./Dashboard_1a.css";
 
 const soldiers = [
   {
-    rank: "Szeregowy ",
-    firstName: "Jacek",
-    lastName: "Nieznany",
-    unit: "Jednostka Wojskowa 1",
+    rank: "st.szer.pchor. ",
+    firstName: "Janek",
+    lastName: "Kowalski",
+    unit: " zamieszkujący akademik wojskowy nr 1",
   },
   {
-    rank: "Sierżant",
-    firstName: "Joanna",
-    lastName: "Smiałek ",
-    unit: "2 Brygada Zmechanizowana",
+    rank: "st.szer.pchor.",
+    firstName: "Kamil",
+    lastName: "Zdonkowski ",
+    unit: "zamieszkujący akademik wojskowy nr 2",
   },
   {
-    rank: "Kapitan",
+    rank: "st.szer.pchor.",
+    firstName: "Mateusz",
+    lastName: "Świetlicki",
+    unit: "zamieszkujący akademik wojskowy nr 2",
+  },
+  {
+    rank: "st.szer.pchor.",
     firstName: "Michał",
-    lastName: "Jakubczyj",
-    unit: "5 Pułk Rozpoznawczy",
+    lastName: "Kowalczyk",
+    unit: "zamieszkujący akademik wojskowy nr 4",
   },
   {
-    rank: "Pułkownik",
-    firstName: "Andrzej",
-    lastName: "Piotrowski",
-    unit: "Jednostka Wojskowa 8",
-    sorted: true,
-    missingItems: "Brak",
+    rank: "st.szer.pchor. ",
+    firstName: "Tomasz",
+    lastName: "Baliński",
+    unit: "zamieszkujący akademik wojskowy nr 3",
   },
   {
-    rank: "Generał brygady",
-    firstName: "Paweł",
-    lastName: "Grabowski",
-    unit: "Jednostka Wojskowa 9",
-    sorted: true,
-    missingItems: "Brak",
+    rank: "st.szer.pchor. ",
+    firstName: "Kamil",
+    lastName: "Dokański",
+    unit: "zamieszkujący akademik wojskowy nr 5",
   },
 ];
 
@@ -61,14 +63,7 @@ const DatabaseSoldier = () => {
           </button>
         </div>
       </div>
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Szukaj..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
+
       <table>
         <thead>
           <tr>
