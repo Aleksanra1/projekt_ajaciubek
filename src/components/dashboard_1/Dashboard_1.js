@@ -1,6 +1,7 @@
 import React from "react";
 import MediaCard from "./Card_1";
 import "./Dashboard.css";
+import { Link } from "react-router-dom";
 
 function Dashboard_1() {
   const input_list = [
@@ -49,6 +50,11 @@ function Dashboard_1() {
   ];
   return (
     <div className="dashboard">
+      <div className="dashboard_1A">
+        <Link to="dashboard_1a">
+          <button className="list">LISTA</button>
+        </Link>
+      </div>
       {input_list.map((item) => {
         return (
           <MediaCard

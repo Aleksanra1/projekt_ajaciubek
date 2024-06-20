@@ -24,3 +24,8 @@
   align-items: center;
   box-sizing: border-box;
 }
+.dashboard_1A {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

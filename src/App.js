@@ -10,6 +10,7 @@ import Dashboard_1 from "./components/dashboard_1/Dashboard_1";
 import Dashboard_2 from "./components/dashboard_2/Dashboard_2";
 import Dashboard_3 from "./components/dashboard_3/Dashboard_3";
 import Oprojekcie from "./components/oprojekcie/Oprojekcie";
+import Dashboard_1a from "./components/dashboard_1a/Dashboard_1a";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
   {
     path: "/oprojekcie",
     element: <Oprojekcie />,
+  },
+  {
+    path: "/services/dashboard_1/dashboard_1a",
+    element: <Dashboard_1a />,
   },
 ]);
 
