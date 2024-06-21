@@ -14,7 +14,7 @@ function Oprojekcie() {
   return (
     <div className="about">
       <div className="about_project">
-        <h1>O PROJEKCIE</h1>
+        <h1>NAJWAŻNIEJSZE INFORMACJE O PROJEKCIE</h1>
         <p>
           Projekt został stworzony na potrzeby zajęć projektowych z przedmiotu
           Programowanie Geoportali. W projekcie stworzno geoportal tematyczny
@@ -37,7 +37,7 @@ function Oprojekcie() {
         )}
       </div>
       <div className="about_author">
-        <h1>O AUTORZE</h1>
+        <h1>O AUTORCE PROJEKTU</h1>
         <p>
           Autorem projektu jest sierż. pchor. Aleksandra Jaciubek z grupy
           WIG20GG1S0. Studentka IV roku geodezji i kartografii, specjalność
