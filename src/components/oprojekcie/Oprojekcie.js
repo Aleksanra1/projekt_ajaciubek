@@ -47,7 +47,7 @@ function Oprojekcie() {
         <img src={ja} alt="ja" className="autor" />
       </div>
       <Link to="/">
-        <button className="back">POWRÓT DO STRONY STARTOWEJ</button>
+        <button className="back">POWRÓT</button>
       </Link>
     </div>
   );

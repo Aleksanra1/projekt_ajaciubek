@@ -1,6 +1,7 @@
 import React from "react";
 import MediaCard from "./Card_3";
 import "./Dashboard_3.css";
+import { Link } from "react-router-dom";
 
 function Dashboard_3() {
   const input_list = [
@@ -43,6 +44,11 @@ function Dashboard_3() {
   ];
   return (
     <div className="dashboard">
+      <div className="dashboard_2A">
+        <Link to="/services/dashboard_3/dashboard_3a">
+          <button className="list">BAZA DANYCH LISTA</button>
+        </Link>
+      </div>
       {input_list.map((item) => {
         return (
           <MediaCard

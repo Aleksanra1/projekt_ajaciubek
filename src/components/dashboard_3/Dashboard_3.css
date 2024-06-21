@@ -25,3 +25,15 @@
   align-items: center;
   box-sizing: border-box;
 }
+.dashboard_3A {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: gray;
+  color: white;
+  font-size: 0.8em; /* Zwiększono rozmiar czcionki */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Dodano zaokrąglone rogi */
+  transition: transform 0.2s; /* Dodano płynne przejście dla transformacji */
+}

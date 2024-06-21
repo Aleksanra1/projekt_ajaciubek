@@ -1,0 +1,106 @@
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 350px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 116px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+th {
+  background-color: gray;
+  color: white;
+  font-size: 1.75em;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  font-size: 0.8em; /* Zwiększono rozmiar czcionki */
+  padding: 20px 30px; /* Dodano padding */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Dodano zaokrąglone rogi */
+  transition: transform 0.2s; /* Dodano płynne przejście dla transformacji */
+  margin-top: 100px;
+}
+
+.button:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+}

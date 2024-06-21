@@ -24,3 +24,28 @@
   align-items: center;
   box-sizing: border-box;
 }
+.dashboard_2A {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: gray;
+  color: white;
+  font-size: 0.8em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.list {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: gray; /* Zmieniono kolor na zielony */
+  color: white;
+  font-size: 1.2em; /* Zwiększono rozmiar czcionki */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Dodano zaokrąglone rogi */
+  transition: transform 0.2s, background-color 0.2s; /* Dodano płynne przejście dla transformacji i koloru tła */
+}
